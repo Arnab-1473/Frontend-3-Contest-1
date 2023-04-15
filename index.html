@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend 3 Contest 1</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>New Employees</h2>
+        <form>
+            <div>
+                <p>Enter Name</p>
+                <input type="text" id="name" required>
+            </div>
+
+            <div>
+                <p>Enter Profession</p>
+                <input type="text" id="profession" required>
+            </div>
+
+            <div>
+                <p>Enter age</p>
+                <input type="number" id="age" required>
+            </div>
+            <button id="addUser-btn">Add User</button>
+        </form>
+
+        <div id="showMsg"></div>
+        <div id="errorMsg"></div>
+
+        <h3 id="employeeAdd">Added Employees</h3>
+        <div id="employeeList"></div>
+        <div id="deleteUser"></div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
